@@ -145,3 +145,16 @@ Pull requests are welcome. File an issue for ideas, conversation or feedback.
 ### Community
 
 After you ★Star this project, follow [@ClintonDAnnolfo](https://twitter.com/clintondannolfo) on Twitter.
+
+### Personal take on code structure
+
+The code architecture of the project is a bit confusing and hard for others to read.
+Some changes i would like to make is:
+
+- the `/pages` folder
+  - should be moved inside `/src` folder
+  - the number of pages is too large and should be further reduced to a managable number
+  - more React Components should be used instead of HTML in many pages for reusability
+- the `/doc` folder
+  - should be changed to `/asset` folder and be put under `/src`
+- all test files should be grouped and isolated better, for example can be grouped into 1 folder in `/src`
